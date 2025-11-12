@@ -1,0 +1,31 @@
+name: flutter_grayscale_sample_app
+description: "A Flutter sample application demonstrating grayscale image conversion using the flutter_grayscale plugin."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.0.7
+  file_selector: ^1.0.4
+  grayscale:
+    git:
+      url: https://github.com/yklee0916/flutter_grayscale.git
+      ref: main
+  log:
+    git:
+      url: https://github.com/yklee0916/flutter_log.git
+      ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
